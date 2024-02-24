@@ -1,0 +1,277 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/accountSettingsLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <ca.xahive.app.ui.views.NavigationBar
+        android:id="@+id/navBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/white">
+            <!--
+                   <TextView
+                       android:layout_width="fill_parent"
+                       android:layout_height="wrap_content"
+                       android:text="@string/user_id_num"
+                       android:textSize="@dimen/xa_nav_bar_button_text_size"
+                       android:layout_marginLeft="8dp"
+                       android:layout_marginTop="10dp"
+                       android:layout_marginBottom="10dp"
+                       android:id="@+id/userIdLabel" />
+
+                   <TextView
+                       android:layout_width="fill_parent"
+                       android:layout_height="wrap_content"
+                       android:editable="false"
+                       android:text=""
+                       android:textColor="@color/xa_light_grey_font"
+                       android:textSize="@dimen/xa_nav_bar_title_text_size"
+                       android:paddingLeft="8dp"
+                       android:paddingTop="10dp"
+                       android:paddingBottom="10dp"
+                       android:id="@+id/userIdField"
+                       android:layout_below="@id/userIdLabel"
+                       android:background="@android:color/white" />
+           -->
+            <RelativeLayout
+                android:id="@+id/avatar_field"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ca.xahive.app.ui.views.HexagonImageView
+                    android:id="@+id/avatarImageView"
+                    android:layout_width="110dp"
+                    android:layout_height="110dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="15dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/default_avatar" />
+
+                <TextView
+                    android:id="@+id/id_field"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/avatarImageView"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginLeft="15dp"
+                    android:textSize="17sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/uploadNewButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_toRightOf="@+id/avatarImageView"
+                    android:background="@drawable/box_blue_border"
+                    android:text="@string/upload_new_avatar"
+                    android:textColor="@color/xa_dark_green"
+                    android:textSize="17sp" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/aliasLabel"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/avatar_field"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="24dp"
+                android:text="@string/userName"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <RelativeLayout
+                android:id="@+id/aliasFieldView"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/aliasLabel"
+                android:layout_marginLeft="10dp"
+                android:background="@android:color/white">
+
+                <EditText
+                    android:id="@+id/aliasField"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_toLeftOf="@+id/editAlias"
+                    android:background="@drawable/edittext_account"
+                    android:descendantFocusability="beforeDescendants"
+                    android:focusableInTouchMode="true"
+                    android:inputType="textPersonName|textNoSuggestions"
+                    android:padding="5dp"
+                    android:singleLine="true"
+                    android:textSize="15sp" />
+
+                <ImageView
+                    android:id="@+id/editAlias"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_gravity="right"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/icon_edit" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/accountChangePasswordLabel"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/aliasFieldView"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/password"
+                android:textSize="17dp"
+                android:textStyle="bold" />
+
+            <RelativeLayout
+                android:id="@+id/paswordFieldView"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/accountChangePasswordLabel"
+                android:layout_marginLeft="10dp"
+                android:background="@android:color/white">
+
+                <EditText
+                    android:id="@+id/passwordField"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_toLeftOf="@+id/editPassword"
+                    android:background="@drawable/edittext_account"
+                    android:descendantFocusability="beforeDescendants"
+                    android:focusableInTouchMode="true"
+                    android:inputType="textPassword|textNoSuggestions"
+                    android:padding="5dp"
+                    android:singleLine="true"
+                    android:textSize="@dimen/xa_nav_bar_button_text_size" />
+
+                <ImageView
+                    android:id="@+id/editPassword"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_gravity="right"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/icon_edit" />
+
+            </RelativeLayout>
+
+            <include
+                android:id="@+id/changePassItem"
+                layout="@layout/xa_change_password_layout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/paswordFieldView" />
+
+            <TextView
+                android:id="@+id/emailLabel"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/changePassItem"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/email"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <RelativeLayout
+                android:id="@+id/emailFieldView"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/emailLabel"
+                android:layout_marginLeft="10dp"
+                android:background="@android:color/white">
+
+                <EditText
+                    android:id="@+id/emailField"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_toLeftOf="@+id/editEmail"
+                    android:background="@drawable/edittext_account"
+                    android:descendantFocusability="beforeDescendants"
+                    android:focusableInTouchMode="true"
+                    android:inputType="textEmailAddress|textNoSuggestions"
+                    android:padding="5dp"
+                    android:singleLine="true"
+                    android:textSize="@dimen/xa_nav_bar_button_text_size" />
+
+                <ImageView
+                    android:id="@+id/editEmail"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_gravity="right"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/icon_edit" />
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/actionEditView"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/emailFieldView"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal"
+                android:padding="10dp"
+                android:weightSum="10">
+
+
+                <Button
+                    android:id="@+id/cancelBtn"
+                    android:layout_width="1dp"
+                    android:layout_height="fill_parent"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_margin="5dp"
+                    android:layout_weight="5"
+                    android:background="@drawable/button_cancel_state"
+                    android:clickable="true"
+                    android:editable="false"
+                    android:padding="10dp"
+                    android:text="@string/cancel"
+                    android:textColor="@color/xa_dark_green"
+                    android:textSize="@dimen/xa_nav_bar_button_text_size" />
+
+                <Button
+                    android:id="@+id/saveBtn"
+                    android:layout_width="1dp"
+                    android:layout_height="fill_parent"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_margin="5dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="5"
+                    android:background="@drawable/button_blue_state"
+                    android:clickable="true"
+                    android:padding="10dp"
+                    android:text="@string/save_btn"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/xa_nav_bar_button_text_size" />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</LinearLayout>
+

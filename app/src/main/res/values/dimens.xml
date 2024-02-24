@@ -1,0 +1,10 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+
+    <dimen name="xa_nav_bar_title_text_size">30dp</dimen>
+    <dimen name="xa_nav_bar_button_text_size">20dp</dimen>
+    <dimen name="xa_login_signup_field_padding">10dp</dimen>
+</resources>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/buzzContextMenu"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <item
+        android:id="@+id/replyToBuzzItem"
+        android:title="@string/reply_to_buzz_button"/>
+
+    <item
+        android:id="@+id/addToContactsItem"
+        android:title="@string/add_to_contacts_button"/>
+
+    <item
+        android:id="@+id/messageUserItem"
+        android:title="@string/message_user_button"/>
+
+    <item
+        android:id="@+id/messageContactItem"
+        android:title="@string/message_contact_button"/>
+
+    <item
+        android:id="@+id/blockUserItem"
+        android:title="@string/block_user_button"/>
+
+    <item
+        android:id="@+id/shareBuzzItem"
+        android:title="@string/share_buzz_button"/>
+
+    <item
+        android:id="@+id/reportBuzzItem"
+        android:title="@string/report_buzz_button"/>
+</menu>

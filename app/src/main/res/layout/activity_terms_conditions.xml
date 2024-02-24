@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ca.xahive.app.ui.views.NavigationBar
+        android:id="@+id/navBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <include
+        layout="@layout/xa_loading_view"
+        android:id="@+id/termsLoadingView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/navBar"
+        android:layout_above="@+id/bottomContainer"/>
+
+    <WebView
+        android:id="@+id/webView"
+        android:layout_width="match_parent"
+
+        android:layout_height="match_parent"
+        android:layout_below="@+id/navBar"
+        android:layout_above="@+id/bottomContainer"/>
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bottomContainer"
+        android:layout_alignParentBottom="true"
+        android:background="@color/xa_dark_green">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp">
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/terms_agree"
+                android:textColor="@android:color/white"
+                android:id="@+id/agreeCheckbox" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/terms_over_18"
+                android:textColor="@android:color/white"
+                android:id="@+id/ageCheckbox"
+                android:layout_below="@+id/agreeCheckbox"
+                android:checked="false" />
+
+            <View
+                android:id="@+id/separator"
+                android:layout_width="10dp"
+                android:layout_height="1dp"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/ageCheckbox"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/terms_accept"
+                android:textColor="@android:color/white"
+                android:background="@color/xa_very_dark_grey"
+                android:id="@+id/acceptButton"
+                android:layout_below="@+id/ageCheckbox"
+                android:layout_alignParentLeft="true"
+                android:layout_toLeftOf="@id/separator"
+                android:layout_margin="10dp"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/terms_cancel"
+                android:textColor="@android:color/white"
+                android:background="@color/xa_very_dark_grey"
+                android:id="@+id/cancelButton"
+                android:layout_alignParentRight="true"
+                android:layout_toRightOf="@id/separator"
+                android:layout_below="@+id/ageCheckbox"
+                android:layout_margin="10dp"/>
+
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

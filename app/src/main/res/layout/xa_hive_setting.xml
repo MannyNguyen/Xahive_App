@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/ll_selector_settting_hive"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <include
+            android:id="@+id/rl_change_hive_pass_field"
+            layout="@layout/xa_settings_chevron_cell"
+            android:layout_width="fill_parent"
+            android:layout_height="70dp" />
+
+        <include
+            android:id="@+id/rl_change_hive_alias_field"
+            layout="@layout/xa_settings_chevron_cell"
+            android:layout_width="fill_parent"
+            android:layout_height="70dp" />
+
+        <include
+            android:id="@+id/rl_change_hive_method_field"
+            layout="@layout/xa_settings_chevron_cell"
+            android:layout_width="fill_parent"
+            android:layout_height="70dp" />
+
+        <include
+            android:id="@+id/rl_hive_messagefield"
+            layout="@layout/xa_settings_chevron_cell"
+            android:layout_width="fill_parent"
+            android:layout_height="70dp" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/ll_edit_settting_hive"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:visibility="gone"
+        >
+
+        <include
+            android:id="@+id/edit_field_1"
+            layout="@layout/xa_settings_edit_cell"
+            android:layout_width="fill_parent"
+            android:layout_height="70dp" />
+
+        <include
+            android:id="@+id/edit_field_2"
+            layout="@layout/xa_settings_edit_cell"
+            android:layout_width="fill_parent"
+            android:layout_height="70dp" />
+
+        <include
+            android:id="@+id/edit_field_3"
+            layout="@layout/xa_settings_edit_cell"
+            android:layout_width="fill_parent"
+            android:layout_height="70dp" />
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/saveButton"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:visibility="gone"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/passwordField"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/button_blue_state"
+        android:text="@string/save_btn"
+        android:textColor="@android:color/white"
+        android:textSize="17sp" />
+</RelativeLayout>

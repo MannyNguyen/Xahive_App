@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="bottom"
+    android:background="#ff9a9a9a"
+    android:padding="10dp">
+
+    <ca.xahive.app.ui.views.ChatEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/chatEditText"
+        android:background="@android:color/white"
+        android:maxLines="3"
+        android:textColor="@color/xa_very_dark_grey"
+        android:padding="6dp"
+        android:inputType="textMultiLine|textAutoComplete"
+        android:hint="Reply"
+        android:layout_gravity="center_vertical|left"
+        android:layout_marginRight="80dp"
+        android:scrollHorizontally="true"
+        android:scrollbars="vertical"
+        android:imeOptions="actionSend"
+        android:text=""
+        android:paddingRight="6dp" />
+
+    <ImageButton
+        android:layout_width="36dp"
+        android:layout_height="34dp"
+        android:id="@+id/attachButton"
+        android:src="@drawable/chat_input_attach_button"
+        android:layout_gravity="center_vertical|right"
+        android:layout_marginRight="36dp"
+        android:background="@android:color/transparent"
+        android:clickable="true" />
+
+    <ImageButton
+        android:layout_width="26dp"
+        android:layout_height="30dp"
+        android:id="@+id/lockButton"
+        android:layout_gravity="center_vertical|right"
+        android:layout_marginRight="6dp"
+        android:src="@drawable/chat_input_lock_button"
+        android:background="@android:color/transparent"
+        android:clickable="true" />
+</FrameLayout>

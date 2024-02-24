@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Volumes/Macintosh HD 2/Prosoft Project/Xahive_new/xahive/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="dcb5b75baf05d92e61d5706737200ee55949f97b">
+        <dex dex="/Volumes/Macintosh HD 2/Prosoft Project/Xahive_new/xahive/app/build/intermediates/pre-dexed/dev/debug/classes-4b617eb377298bdb22e20c69717cf975ea1a9a71.jar/classes.dex" />
+    </item>
+    <item
+        jar="/Volumes/Macintosh HD 2/Prosoft Project/Xahive_new/xahive/app/libs/org.apache.http.legacy.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="fa331331b626ee78c52bea16ce1e34b39e666ce5">
+        <dex dex="/Volumes/Macintosh HD 2/Prosoft Project/Xahive_new/xahive/app/build/intermediates/pre-dexed/dev/debug/org.apache.http.legacy-fb58e92ebe60504fdfd1c8088b09bab7be8731d4.jar/classes.dex" />
+    </item>
+    <item
+        jar="/Volumes/Macintosh HD 2/Prosoft Project/Xahive_new/xahive/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="/Volumes/Macintosh HD 2/Prosoft Project/Xahive_new/xahive/app/build/intermediates/pre-dexed/dev/debug/classes-a0438eeffe7b77a10dce75526f1a04dbd5da9957.jar/classes.dex" />
+    </item>
+    <item
+        jar="/Volumes/Macintosh HD 2/Prosoft Project/Xahive_new/xahive/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-vision/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="17449c47df35c754b257532052f1270c444f7993">
+        <dex dex="/Volumes/Macintosh HD 2/Prosoft Project/Xahive_new/xahive/app/build/intermediates/pre-dexed/dev/debug/classes-a6216ebb59c7fed3059d198321558672da391a5e.jar/classes.dex" />
+    </item>
+    <item
+        jar="/Volumes/Macintosh HD 2/Prosoft Project/Xahive_new/xahive/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.2.0/jars/libs/internal_impl-22.2.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="0632f06970823b7e3436f649bfa65b47035c91d0">
+        <dex dex="/Volumes/Macintosh HD 2/Prosoft Project/Xahive_new/xahive/app/build/intermediates/pre-dexed/dev/debug/internal_impl-22.2.0-259210d2b51a0a2b71c053dace27e811f62ea5a6.jar/classes.dex" />
+    </item>
+    <item
+        jar="/Volumes/Macintosh HD 2/Prosoft Project/Xahive_new/xahive/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-panorama/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d93480da1d303122ee67dc3bc23e6297bdef9951">
+        <dex dex="/Volumes/Macintosh HD 2/Prosoft Project/Xahive_new/xahive/app/build/intermediates/pre-dexed/dev/debug/classes-047dd4c9771b36a04edee6ba441dec3f8153beaf.jar/classes.dex" />
+    </item>
+    <item
+        jar="/Volumes/Macintosh HD 2/Prosoft Project/Xahive_new/xahive/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="3c729e6d76a36c5dc27e6a4c4009296f49eaa88a">
+        <dex dex="/Volumes/Macintosh HD 2/Prosoft Project/Xahive_new/xahive/app/build/intermediates/pre-dexed/dev/debug/classes-688b390858049771d1655f97692931f09111cc44.jar/classes.dex" />
+    </item>
+    <item
+        jar="/Volumes/Macintosh HD 2/Prosoft Project/Xahive_new/xahive/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-nearby/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="041d93cf0533591c29d1d7263b2fa114dbfb20bd">
+        <dex dex="/Volumes/Macintosh HD 2/Prosoft Project/Xahive_new/xahive/app/build/intermediates/pre-dexed/dev/debug/classes-d4087bbf4e58028912c8d0c876fd2e797f345725.jar/classes.dex" />
+    </item>
+    <item
+        jar="/Volumes/Macintosh HD 2/Prosoft Project/Xahive_new/xahive/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d294caf562c4c678b2ef351662a0ca6f1a4d06c0">
+        <dex dex="/Volumes/Macintosh HD 2/Prosoft Project/Xahive_new/xahive/app/build/intermediates/pre-dexed/dev/debug/classes-76c18881eba7cb4033e864af535390b0f7f690b7.jar/classes.dex" />
+    </item>
+    <item
+        jar="/Volumes/Macintosh HD 2/Prosoft Project/Xahive_new/xahive/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="82825756edeeb3b56b15e73b2edd56e93da5a444">
+        <dex dex="/Volumes/Macintosh HD 2/Prosoft Project/Xahive_new/xahive/app/build/intermediates/pre-dexed/dev/debug/classes-4f5d07fd1cd20c384a89470725eaa41398166368.jar/classes.dex" />
+    </item>
+    <item
+        jar="/Volumes/Macintosh HD 2/Prosoft Project/Xahive_new/xahive/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="997773777cf3904c11d6764fe3b7668538220e49">
+        <dex dex="/Volumes/Macintosh HD 2/Prosoft Project/Xahive_new/xahive/app/build/intermediates/pre-dexed/dev/debug/classes-21a8cfc40b986344bf6a116d20dc1e0412011575.jar/classes.dex" />
+    </item>
+    <item
+        jar="/Volumes/Macintosh HD 2/Prosoft Project/Xahive_new/xahive/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="4477ea44f5ec5ad064022a22691732d7638ff197">
+        <dex dex="/Volumes/Macintosh HD 2/Prosoft Project/Xahive_new/xahive/app/build/intermediates/pre-dexed/dev/debug/classes-0d35920bac7bb257e2a4a5f390ed8fbe51e053c5.jar/classes.dex" />
+    </item>
+    <item
+        jar="/Volumes/Macintosh HD 2/Prosoft Project/Xahive_new/xahive/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
+        <dex dex="/Volumes/Macintosh HD 2/Prosoft Project/Xahive_new/xahive/app/build/intermediates/pre-dexed/dev/debug/classes-afa561df47fd22eda1b19af6755f6bd7117a4fe3.jar/classes.dex" />
+    </item>
+    <item
+        jar="/Volumes/Macintosh HD 2/Prosoft Project/Xahive_new/xahive/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="97f3b099801a9ad9d70e835b9125273e986eb68d">
+        <dex dex="/Volumes/Macintosh HD 2/Prosoft Project/Xahive_new/xahive/app/build/intermediates/pre-dexed/dev/debug/classes-5578c6cb28b125090841f430f2f6cde4c0ae13ac.jar/classes.dex" />
+    </item>
+    <item
+        jar="/Volumes/Macintosh HD 2/Prosoft Project/Xahive_new/xahive/app/libs/aws-android-sdk-s3-2.2.6.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="a239d257260c0644273bc2ed7b4ed227a80cfe7b">
+        <dex dex="/Volumes/Macintosh HD 2/Prosoft Project/Xahive_new/xahive/app/build/intermediates/pre-dexed/dev/debug/aws-android-sdk-s3-2.2.6-69aba7215dcc90ade75753e1a9487dc6e0f49144.jar/classes.dex" />
+    </item>
+    <item
+        jar="/Volumes/Macintosh HD 2/Prosoft Project/Xahive_new/xahive/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-safetynet/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="3b05c18f60969ecc2ba49c0409c4b96be2d9cb0c">
+        <dex dex="/Volumes/Macintosh HD 2/Prosoft Project/Xahive_new/xahive/app/build/intermediates/pre-dexed/dev/debug/classes-7553baf194140d6eb1d6241a92ad2e6a6a6bd152.jar/classes.dex" />
+    </item>
+    <item
+        jar="/Volumes/Macintosh HD 2/Prosoft Project/Xahive_new/xahive/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/libs/internal_impl-22.2.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
+        <dex dex="/Volumes/Macintosh HD 2/Prosoft Project/Xahive_new/xahive/app/build/intermediates/pre-dexed/dev/debug/internal_impl-22.2.0-c625a27deb219815c5001c957dab6d1628dee837.jar/classes.dex" />
+    </item>
+    <item
+        jar="/Volumes/Macintosh HD 2/Prosoft Project/Xahive_new/xahive/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="dcf8c83c3dead00a6c4fe313e95f7aaca20dc641">
+        <dex dex="/Volumes/Macintosh HD 2/Prosoft Project/Xahive_new/xahive/app/build/intermediates/pre-dexed/dev/debug/classes-aa7035191ea2d6f50326c6222702d5037d0a96a8.jar/classes.dex" />
+    </item>
+    <item
+        jar="/Volumes/Macintosh HD 2/Prosoft Project/Xahive_new/xahive/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="3aed37c38c56679602255dd72ef356da5d327cda">
+        <dex dex="/Volumes/Macintosh HD 2/Prosoft Project/Xahive_new/xahive/app/build/intermediates/pre-dexed/dev/debug/classes-090d8b969499613d540289138b0f088d4f6d91eb.jar/classes.dex" />
+    </item>
+    <item
+        jar="/Users/trantung/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.3.1/ecb6e1f8e4b0e84c4b886c2f14a1500caf309757/gson-2.3.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="ecb6e1f8e4b0e84c4b886c2f14a1500caf309757">
+        <dex dex="/Volumes/Macintosh HD 2/Prosoft Project/Xahive_new/xahive/app/build/intermediates/pre-dexed/dev/debug/gson-2.3.1-3517d89e319bc101c12c106f8dfacd862c38a23f.jar/classes.dex" />
+    </item>
+    <item
+        jar="/Volumes/Macintosh HD 2/Prosoft Project/Xahive_new/xahive/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-fitness/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="9cf8c0ef60847621c7ad00b4f78dbfc9daba4af2">
+        <dex dex="/Volumes/Macintosh HD 2/Prosoft Project/Xahive_new/xahive/app/build/intermediates/pre-dexed/dev/debug/classes-ee92e9b5523fb4671b6081d80ee9beab768df5d1.jar/classes.dex" />
+    </item>
+    <item
+        jar="/Volumes/Macintosh HD 2/Prosoft Project/Xahive_new/xahive/app/libs/core-1.53.0.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="619f704791db186304325bd129b2e7ec34f77438">
+        <dex dex="/Volumes/Macintosh HD 2/Prosoft Project/Xahive_new/xahive/app/build/intermediates/pre-dexed/dev/debug/core-1.53.0.0-a93f28d4a13e2e2e6a99cefda819ccba0f41b7d6.jar/classes.dex" />
+    </item>
+    <item
+        jar="/Volumes/Macintosh HD 2/Prosoft Project/Xahive_new/xahive/app/libs/aws-android-sdk-core-2.2.6.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="5939bfb7973a02ed18bff412638ea244ccfe1a2b">
+        <dex dex="/Volumes/Macintosh HD 2/Prosoft Project/Xahive_new/xahive/app/build/intermediates/pre-dexed/dev/debug/aws-android-sdk-core-2.2.6-a69a013bd2369d1d4ca607fe45aa7c1fa245815b.jar/classes.dex" />
+    </item>
+    <item
+        jar="/Volumes/Macintosh HD 2/Prosoft Project/Xahive_new/xahive/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="2a7e47da654546f9457deb6132364f1bf33a1857">
+        <dex dex="/Volumes/Macintosh HD 2/Prosoft Project/Xahive_new/xahive/app/build/intermediates/pre-dexed/dev/debug/classes-68f4a776e5fbe0d525f40c41e299852bedeba70b.jar/classes.dex" />
+    </item>
+    <item
+        jar="/Volumes/Macintosh HD 2/Prosoft Project/Xahive_new/xahive/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d0dda274b703dd9c5bb056867649d22b4171ae7d">
+        <dex dex="/Volumes/Macintosh HD 2/Prosoft Project/Xahive_new/xahive/app/build/intermediates/pre-dexed/dev/debug/classes-0876cb2470818e2af96ef44dba97a2ace0a35e79.jar/classes.dex" />
+    </item>
+    <item
+        jar="/Volumes/Macintosh HD 2/Prosoft Project/Xahive_new/xahive/app/build/intermediates/exploded-aar/com.android.support/multidex/1.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="78ea232052df889856dcb7b7b542707c89bb3bfb">
+        <dex dex="/Volumes/Macintosh HD 2/Prosoft Project/Xahive_new/xahive/app/build/intermediates/pre-dexed/dev/debug/classes-aa6f5fb03713a82b063137d3f2817b10c111aff8.jar/classes.dex" />
+    </item>
+    <item
+        jar="/Volumes/Macintosh HD 2/Prosoft Project/Xahive_new/xahive/app/libs/universal-image-loader-1.9.4.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="dd9eeb557650c4ad7394df23f0f5cf27a7cfc697">
+        <dex dex="/Volumes/Macintosh HD 2/Prosoft Project/Xahive_new/xahive/app/build/intermediates/pre-dexed/dev/debug/universal-image-loader-1.9.4-f77b6cba4335a2fd30eed158c8c601c26b7210f7.jar/classes.dex" />
+    </item>
+    <item
+        jar="/Users/trantung/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.0/support-annotations-22.2.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
+        <dex dex="/Volumes/Macintosh HD 2/Prosoft Project/Xahive_new/xahive/app/build/intermediates/pre-dexed/dev/debug/support-annotations-22.2.0-8cf4015218bb446891d8f7e25c19b8fcf86996ef.jar/classes.dex" />
+    </item>
+    <item
+        jar="/Volumes/Macintosh HD 2/Prosoft Project/Xahive_new/xahive/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="482de223655d06253cc6a4955d653f8994169500">
+        <dex dex="/Volumes/Macintosh HD 2/Prosoft Project/Xahive_new/xahive/app/build/intermediates/pre-dexed/dev/debug/classes-8c3c84d2333fe64352f915fdbcd0eb8a67f8c938.jar/classes.dex" />
+    </item>
+    <item
+        jar="/Volumes/Macintosh HD 2/Prosoft Project/Xahive_new/xahive/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="3178362320bcf51228835b60ff978efadfd1f783">
+        <dex dex="/Volumes/Macintosh HD 2/Prosoft Project/Xahive_new/xahive/app/build/intermediates/pre-dexed/dev/debug/classes-d704b9edef5146e281d867d7afd9617b192cdee9.jar/classes.dex" />
+    </item>
+    <item
+        jar="/Volumes/Macintosh HD 2/Prosoft Project/Xahive_new/xahive/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="95758a2905669affbffc5ddd262921d375674fad">
+        <dex dex="/Volumes/Macintosh HD 2/Prosoft Project/Xahive_new/xahive/app/build/intermediates/pre-dexed/dev/debug/classes-89e56fd2e78010e5f902c68fb1edb74904fe2958.jar/classes.dex" />
+    </item>
+    <item
+        jar="/Volumes/Macintosh HD 2/Prosoft Project/Xahive_new/xahive/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="325788a04b436a0bccbc5b4c54cf0f12ebdcbd2d">
+        <dex dex="/Volumes/Macintosh HD 2/Prosoft Project/Xahive_new/xahive/app/build/intermediates/pre-dexed/dev/debug/classes-c70290cec0f09ffbd81bf7baea901ac4877241aa.jar/classes.dex" />
+    </item>
+    <item
+        jar="/Volumes/Macintosh HD 2/Prosoft Project/Xahive_new/xahive/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-games/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="993834cb17d07d51b92db89d2c330243592ebf77">
+        <dex dex="/Volumes/Macintosh HD 2/Prosoft Project/Xahive_new/xahive/app/build/intermediates/pre-dexed/dev/debug/classes-fbd41c6869c2a9995ddb5b83df9293ee6a886ebc.jar/classes.dex" />
+    </item>
+    <item
+        jar="/Volumes/Macintosh HD 2/Prosoft Project/Xahive_new/xahive/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="b92002cb2f0e11a226ac5bac6dff1dc2a9d0b774">
+        <dex dex="/Volumes/Macintosh HD 2/Prosoft Project/Xahive_new/xahive/app/build/intermediates/pre-dexed/dev/debug/classes-1e4582fb729af4cab9e378be0096742a8dca877e.jar/classes.dex" />
+    </item>
+    <item
+        jar="/Volumes/Macintosh HD 2/Prosoft Project/Xahive_new/xahive/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d61920aba361832a9545a43fa8c9453eb02f18f7">
+        <dex dex="/Volumes/Macintosh HD 2/Prosoft Project/Xahive_new/xahive/app/build/intermediates/pre-dexed/dev/debug/classes-bd4317c9de8f965b4bc21b5e1cde72f6ec0589af.jar/classes.dex" />
+    </item>
+
+</items>

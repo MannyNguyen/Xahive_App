@@ -1,0 +1,207 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ca.xahive.app.ui.views.NavigationBar
+        android:id="@+id/navBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/xa_light_grey">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <include layout="@layout/xa_settings_chevron_cell"
+                android:id="@+id/accountSettingsItem"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"/>
+
+            <include layout="@layout/xa_settings_chevron_cell"
+                android:id="@+id/statisticsItem"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/accountSettingsItem"/>
+
+            <include layout="@layout/xa_settings_chevron_cell"
+                android:id="@+id/contactsListItem"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/statisticsItem"/>
+
+            <include layout="@layout/xa_settings_chevron_cell"
+                android:id="@+id/blockedContactsListItem"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/contactsListItem"/>
+
+            <include layout="@layout/xa_settings_chevron_cell"
+                android:id="@+id/changeHiveItem"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/blockedContactsListItem"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/changeHiveItem"
+                android:text="@string/msg_preferences"
+                android:textSize="@dimen/xa_nav_bar_button_text_size"
+                android:textColor="@color/xa_light_grey_font"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="4dp"
+                android:id="@+id/msgPrefLabel"/>
+
+            <include layout="@layout/xa_settings_checkbox_cell"
+                android:id="@+id/allowMsgItem"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/msgPrefLabel"/>
+
+            <include layout="@layout/xa_settings_checkbox_cell"
+                android:id="@+id/allowAnonMsgItem"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/allowMsgItem"
+                android:orientation="horizontal"/>
+
+            <include layout="@layout/xa_settings_checkbox_cell"
+                android:id="@+id/allowNonContactMsgItem"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/allowAnonMsgItem"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/allowNonContactMsgItem"
+                android:text="BUZZ PREFERENCES"
+                android:textSize="@dimen/xa_nav_bar_button_text_size"
+                android:textColor="@color/xa_light_grey_font"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="4dp"
+                android:id="@+id/buzzPreferencesLabel"/>
+
+            <include layout="@layout/xa_settings_checkbox_cell"
+                android:id="@+id/allowAnonBuzzItem"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/buzzPreferencesLabel"/>
+
+            <include layout="@layout/xa_settings_checkbox_cell"
+                android:id="@+id/allowNonContactBuzzItem"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/allowAnonBuzzItem"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/allowNonContactBuzzItem"
+                android:text="BUZZ DISTANCE"
+                android:textSize="@dimen/xa_nav_bar_button_text_size"
+                android:textColor="@color/xa_light_grey_font"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="4dp"
+                android:id="@+id/buzzDistanceLabel"/>
+
+            <include layout="@layout/xa_distance_cell"
+                android:id="@+id/buzzDistanceItem"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/buzzDistanceLabel"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/buzzDistanceItem"
+                android:text="LISTEN DISTANCE"
+                android:textSize="@dimen/xa_nav_bar_button_text_size"
+                android:textColor="@color/xa_light_grey_font"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="4dp"
+                android:id="@+id/listenDistanceLabel"/>
+
+            <include layout="@layout/xa_distance_cell"
+                android:id="@+id/listenDistanceItem"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/listenDistanceLabel"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/listenDistanceItem"
+                android:text="ADDITIONAL INFORMATION"
+                android:textSize="@dimen/xa_nav_bar_button_text_size"
+                android:textColor="@color/xa_light_grey_font"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="4dp"
+                android:id="@+id/additionalInfoLabel"/>
+
+            <include layout="@layout/xa_settings_chevron_cell"
+                android:id="@+id/termsAndConditionsItem"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/additionalInfoLabel"/>
+
+            <include layout="@layout/xa_settings_chevron_cell"
+                android:id="@+id/helpItem"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/termsAndConditionsItem"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/helpItem"
+                android:text="ADVERTISEMENTS"
+                android:textSize="@dimen/xa_nav_bar_button_text_size"
+                android:textColor="@color/xa_light_grey_font"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="4dp"
+                android:id="@+id/advertisementsLabel"/>
+
+            <include layout="@layout/xa_settings_cell"
+                android:id="@+id/disableAdsItem"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/advertisementsLabel"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/disableAdsItem"
+                android:text="APPLICATION CACHE"
+                android:textSize="@dimen/xa_nav_bar_button_text_size"
+                android:textColor="@color/xa_light_grey_font"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="4dp"
+                android:id="@+id/applicationCacheLabel"/>
+
+            <include layout="@layout/xa_settings_cell"
+                android:id="@+id/clearCacheItem"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/applicationCacheLabel"/>
+        </RelativeLayout>
+
+    </ScrollView>
+
+</LinearLayout>
+

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <AutoCompleteTextView
+        android:id="@+id/control_add_Input"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/box_gray_boder"
+        android:maxLines="1"
+        android:hint="@string/enter_user_id_message"
+        android:inputType="number"
+        android:paddingLeft="50dp"
+        android:textColorHint="@color/xa_dark_grey"
+        android:textSize="13sp" />
+
+    <Button
+        android:id="@+id/control_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:background="@color/xa_transparent"
+        android:textColor="@color/material_deep_teal_500"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="5dp"
+        android:text="@string/add_nav_button_title"/>
+</RelativeLayout>

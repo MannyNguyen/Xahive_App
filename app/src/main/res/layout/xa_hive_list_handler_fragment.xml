@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/listHandlerFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <!--<ca.xahive.app.ui.views.NavigationBar-->
+        <!--android:id="@+id/navBar"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content" />-->
+
+    <include
+        android:id="@+id/searchBar"
+        layout="@layout/xa_search_layout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/navBar"
+        />
+    <!--<View
+        android:layout_width="fill_parent"
+        android:id="@+id/div1"
+        android:background="@color/xa_dark_grey"
+        android:layout_below="@+id/searchBar"
+        android:layout_height="0dp"></View> -->
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/searchBar"
+        android:visibility="gone"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-3503771868542902/1208461674" />
+
+    <include
+        android:id="@+id/listHandlerFragmentEmptyListView"
+        layout="@layout/xa_error_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/adView"
+        android:visibility="invisible" />
+
+    <include
+        android:id="@+id/listHandlerFragmentErrorView"
+        layout="@layout/xa_error_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/adView"
+        android:visibility="invisible" />
+
+    <include
+        android:id="@+id/listHandlerFragmentLoadingView"
+        layout="@layout/xa_loading_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/adView"
+        android:visibility="invisible" />
+
+
+    <ca.xahive.app.ui.views.swipelistmenu.SwipeMenuListView
+        android:id="@+id/listHandlerFragmentListView"
+        android:layout_width="fill_parent"
+
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/adView"
+        android:divider="@null"
+        android:dividerHeight="0dp"
+        android:visibility="invisible" />
+
+</RelativeLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ca.xahive.app.ui.cells.DrowsyRelativeLayoutCell xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Settings Cell Text"
+        android:id="@+id/cellTextView"
+        android:textSize="@dimen/xa_nav_bar_button_text_size"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="20dp"
+        android:layout_centerVertical="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cellCheckmark"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:src="@android:drawable/presence_online"
+        android:layout_margin="10dp"
+        android:visibility="invisible"/>
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:id="@+id/separator"
+        android:layout_below="@+id/cellTextView"
+        android:layout_alignParentBottom="true"
+        android:background="@color/xa_light_grey"
+        android:layout_marginTop="20dp"/>
+
+</ca.xahive.app.ui.cells.DrowsyRelativeLayoutCell>

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/addContactToSendMessage"
+        layout="@layout/xa_add_message_layout"
+
+        android:layout_width="match_parent"
+        android:layout_height="50dp" ></include>
+    <ListView
+        android:id="@+id/chatListView"
+        android:layout_width="fill_parent"
+        android:layout_below="@+id/addContactToSendMessage"
+        android:layout_height="fill_parent"
+        android:transcriptMode="alwaysScroll"
+        android:divider="@null"
+        android:dividerHeight="0dp"
+        android:background="@android:color/white"
+        android:layout_above="@+id/chatField">
+    </ListView>
+
+    <include
+        android:id="@+id/listHandlerFragmentLoadingView"
+        layout="@layout/xa_loading_view"
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:visibility="invisible" />
+
+    <ca.xahive.app.ui.views.ChatField
+        android:id="@+id/chatField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"/>
+<!--
+    <ListView
+        android:id="@+id/lv_chat_field"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/rl_chat_field" />
+
+    <RelativeLayout
+        android:id="@+id/rl_chat_field"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/xa_dark_grey" />
+
+        <TextView
+            android:id="@+id/tv_chat"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center_vertical"
+            android:hint="Reply...."
+            android:paddingLeft="10dp" />
+
+        <LinearLayout
+            android:id="@+id/ll_bottom_field"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@+id/tv_chat"
+            android:background="@color/common_action_bar_splitter"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:id="@+id/rl_attach_file"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_toLeftOf="@+id/tv_attach_file"
+                    android:src="@drawable/attach"
+                    android:scaleType="centerInside" />
+
+                <TextView
+                    android:id="@+id/tv_attach_file"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentRight="true"
+                    android:gravity="center_vertical"
+                    android:text="Attach file"
+                    android:textColor="@color/xa_very_dark_grey" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_toLeftOf="@+id/tv_secured"
+                    android:src="@drawable/secure"
+                    android:scaleType="centerInside" />
+
+                <TextView
+                    android:id="@+id/tv_secured"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentRight="true"
+                    android:gravity="center_vertical"
+                    android:text="Secured"
+                    android:textColor="@color/xa_very_dark_grey" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_toLeftOf="@+id/tv_send"
+                    android:src="@drawable/send"
+                    android:scaleType="centerInside" />
+
+                <TextView
+                    android:id="@+id/tv_send"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentRight="true"
+                    android:gravity="center_vertical"
+                    android:text="Send"
+                    android:textColor="@color/xa_very_dark_grey" />
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout> -->
+</RelativeLayout>

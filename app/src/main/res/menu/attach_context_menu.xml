@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="300dp"
+    android:layout_width="300dp">
+    <group android:id="@+id/attachContextMenuGroup">
+        <!--required to set height and width but it's ignored-->
+
+        <item
+            android:id="@+id/option_photo"
+            android:orderInCategory="1"
+            android:title="@string/attach_option_photo" />
+
+        <item
+            android:id="@+id/option_video"
+            android:orderInCategory="2"
+            android:title="@string/attach_option_video" />
+
+        <item
+            android:id="@+id/option_file"
+            android:orderInCategory="3"
+            android:title="@string/attach_option_file" />
+    </group>
+</menu>

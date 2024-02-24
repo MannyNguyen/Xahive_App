@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="300dp"
+    android:layout_width="300dp">
+    <group android:id="@+id/shareAttachContextMenuGroup">
+        <!--required to set height and width but it's ignored-->
+
+        <item
+            android:id="@+id/option_share_attachment_buzz"
+            android:orderInCategory="1"
+            android:title="@string/option_share_attachment_buzz" />
+
+        <item
+            android:id="@+id/option_share_attachment_personal_message"
+            android:orderInCategory="2"
+            android:title="@string/option_share_attachment_personal_message" />
+    </group>
+</menu>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ca.xahive.app.ui.cells.ChatMessageCell xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/chatMessageCell"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="horizontal">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent">
+
+        <view
+            android:id="@+id/avatarImageView"
+            class="ca.xahive.app.ui.views.HexagonImageView"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="45dp" />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp">
+
+        <ImageButton
+            android:id="@+id/msgLockIcon"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/mess_ico_lock_grey"
+            android:padding="10dp" />
+
+        <TextView
+            android:id="@+id/timestamp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:maxLines="1"
+            android:text="0:00 am"
+            android:textColor="@color/xa_dark_grey"
+            android:textSize="16dp" />
+
+
+        <LinearLayout
+            android:id="@+id/messageLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/timestamp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_toLeftOf="@+id/msgLockIcon"
+            android:background="@android:color/white"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="6dp">
+
+                <ImageButton
+                    android:id="@+id/msgAttachIcon"
+                    android:layout_width="40dp"
+                    android:layout_height="30dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/mess_clip_grey"
+                    android:padding="10dp" />
+
+                <!--android:layout_toLeftOf="@id/msgLockIcon" -->
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/messageText"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:gravity="left"
+                android:maxLines="5"
+                android:text="New Text"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/xa_nav_bar_button_text_size" />
+
+        </LinearLayout>
+    </RelativeLayout>
+
+</ca.xahive.app.ui.cells.ChatMessageCell>

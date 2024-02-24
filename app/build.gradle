@@ -1,0 +1,51 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion '23.0.1'
+    defaultConfig {
+        applicationId "com.xahive.app"
+        versionCode 3
+        versionName "3.7"
+        testInstrumentationRunner "android.common.InstrumentationTestRunner"
+        multiDexEnabled true
+        minSdkVersion 14
+        targetSdkVersion 23
+
+    }
+    signingConfigs {
+        release {
+            storeFile file('/Users/prosoft/Downloads/key_xahive.jks')
+            storePassword 'lythong'
+            keyAlias 'xahive'
+            keyPassword 'lythong'
+        }
+    }
+    dexOptions {
+        javaMaxHeapSize "4g"
+    }
+    buildTypes {
+        release {
+            signingConfig signingConfigs.release
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+        debug {
+            debuggable true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    productFlavors {
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile 'com.google.android.gms:play-services-location:8.1.0'
+    compile 'com.android.support:multidex:1.0.1'
+    compile 'com.google.android.gms:play-services-ads:8.1.0'
+    compile 'com.google.android.gms:play-services-identity:8.1.0'
+    compile 'com.google.android.gms:play-services-gcm:8.1.0'
+    compile 'com.android.support:appcompat-v7:23.1.0'
+    compile 'com.google.code.gson:gson:2.3.1'
+}

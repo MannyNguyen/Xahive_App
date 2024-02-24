@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/chatMessageCellContextMenu"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <group android:id="@+id/chatMessageCellContextMenuGroup">
+        <item
+            android:id="@+id/addToContactsItem"
+            android:title="@string/add_to_contacts_button" />
+
+        <item
+            android:id="@+id/blockUserItem"
+            android:title="@string/block_user_button" />
+
+        <item
+            android:id="@+id/shareMessageItem"
+            android:title="@string/share_message_button" />
+
+        <item
+            android:id="@+id/reportMessageItem"
+            android:title="@string/report_message_button" />
+    </group>
+</menu>

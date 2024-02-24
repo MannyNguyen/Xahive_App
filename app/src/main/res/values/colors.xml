@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--UI Elements Colors-->
+    <color name="xa_transparent">#00000000</color> <!-- meta -->
+    <color name="xa_light_green">#DBF4EA</color> <!-- ex: unlocked personal message from other user -->
+    <color name="xa_dark_green">#37C5A6</color> <!-- main green color -->
+    <color name="xa_very_light_grey">#E6E8EE</color> <!-- ex: unlocked personal message from current user -->
+    <color name="xa_light_grey">#E2E2E2</color> <!-- main background of most views -->
+    <color name="xa_medium_grey">#CBCED2</color> <!-- ex: locked personal message from current user -->
+    <color name="xa_dark_grey">#B5B5B5</color> <!-- ex: bottom of buzz cell -->
+    <color name="xa_very_dark_grey">#58595B</color> <!-- ex: tab bar-->
+
+    <!--Font Colors-->
+    <color name="xa_light_grey_font">#58595B</color> <!-- ex: timestamps in cells -->
+    <color name="xa_medium_grey_font">#3E3F40</color> <!-- ex: nav bar titles -->
+    <color name="xa_dark_grey_font">#2A2B2C</color> <!-- ex: very dark text - anything that looks almost black -->
+
+
+</resources>

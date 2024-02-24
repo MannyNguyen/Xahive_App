@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@android:color/white"
+    android:layout_height="match_parent">
+
+    <fragment
+        android:layout_width="match_parent"
+
+        android:layout_height="match_parent"
+        android:name="ca.xahive.app.ui.fragments.ContactListFragment"
+        tools:layout="@layout/xa_list_handler_fragment"
+        android:id="@+id/contactListFragment"/>
+
+
+    <include
+        layout="@layout/xa_contact_add_new"
+        android:layout_width="match_parent"
+        android:layout_alignParentTop="true"
+
+        android:visibility="gone"
+        android:layout_height="match_parent"
+        android:id="@+id/xa_layout_AddView" />
+</RelativeLayout>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ca.xahive.app.ui.cells.ConversationListCell
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="80dp"
+    android:background="@android:color/white">
+
+    <view
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        class="ca.xahive.app.ui.views.HexagonImageView"
+        android:id="@+id/avatarImageView"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="center_vertical"
+        android:scaleType="fitCenter"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="65dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:background="@android:color/white">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Username Label"
+            android:id="@+id/aliasLabel"
+            android:textSize="@dimen/xa_nav_bar_button_text_size"
+            android:textColor="@android:color/black"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginRight="10dp" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Timestamp Label"
+            android:id="@+id/timestampLabel"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginRight="10dp"
+            android:textColor="@color/xa_very_dark_grey" />
+       <View
+           android:layout_width="fill_parent"
+           android:layout_marginTop="5dp"
+           android:background="@color/xa_very_dark_grey"
+           android:layout_height="1dp"></View>
+    </LinearLayout>
+
+</ca.xahive.app.ui.cells.ConversationListCell>
